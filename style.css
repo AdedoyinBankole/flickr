@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.bgdark{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+
+}
+.divnav{
+    padding-left: 100px;
+    padding-top: -10px;
+    gap: 100px;
+}
+
+.navbutton{
+    color: white; width: 80px; height: 40px; 
+    margin-left: 900px; position: relative; margin-top: -70px;
+}
+
+.dgleft{
+   display: flex;
+   margin-left: 300px; padding-top: -40px;
+    position: relative;
+}
+.mainclass{
+    display: flex;
+    justify-content: center; align-items: center;
+}
+.inspira{
+    color: white;
+    margin-top: -400px; display: flex;
+    justify-content: center; 
+}
+.join{
+   justify-content: center; display: flex; 
+   color: white;
+}
+.button{
+    background-color: white; width: 200px; height: 60px;
+     position: relative;  margin-left: 550px; border: none; border-radius: 10px;
+}
+.position{
+    position: relative;
+}
+.carousel{
+    width: 100%;
+    height: 90vh;
+}
+.classpara{
+    justify-content: center; display: flex; 
+   color: white; font-size: 10px;
+}
+.divmid{
+    background-color: rgb(153,153,153); height: 100px; width: 100%;
+}
+.disdiv{
+     color: white; position: relative; padding-top: 50px; padding-left: 100px;
+}
+.darkfooter{
+    height: 70px; list-style: none; color: white; display: flex; gap: 20px;
+    padding-top: 30px;
+}
+
+@media screen and (max-width:480px) {
+    .bgdark{
+        
+        width: 400px;
+        height: 50px;
+    
+    }
+    .divnav{
+        padding-left: 100px;
+        padding-top: -10px;
+        gap: 100px;
+    }
+    .classpara{
+        justify-content: center; display: flex; 
+       color: white; font-size: 10px;
+    }
+    
+}
